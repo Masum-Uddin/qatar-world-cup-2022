@@ -73,7 +73,7 @@ body{font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
     border: none;
-    background-color:darkred;
+    background-color:rgb(174, 83, 83);
 }
 .up a{text-decoration: none;
     color: white;}
@@ -154,22 +154,21 @@ hr{color: rgba(126, 121, 121, 0.023);
 
 
 
-    @media only screen and (max-width:688px)
+ @media only screen and (max-width:688px)
      {
 .top-section{
-     flex-direction:column;
+    flex-direction:column;
      width:100%;
     align-items: center;
      text-align: center;
      padding: 0px;
      margin: 0px;
-    border-radius: 0px;
-          
+    border-radius: 0px;       
         }
-.top-side h3{
-    font-size: 35px; 
+.top-side h1{
+    font-size: 20px; 
     padding-left: 0px;
-    text-align: center;
+    
         }
 .top-side p{
     padding-left: 0px;
@@ -178,8 +177,7 @@ hr{color: rgba(126, 121, 121, 0.023);
     margin-left: 0px;
         }
 .top-side img{
-            width: 320px;  
-          
+     width: 320px;      
         }
 .flex-div{flex-direction: column;
             margin: 5px;
